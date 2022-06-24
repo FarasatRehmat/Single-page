@@ -1,0 +1,112 @@
+.navbar{
+  box-shadow: 2px 0px 2px 2px #3389e5;
+  background-color: #dcdcfb;
+}
+.navbar-brand{
+  width: 10rem ;
+}
+.nav-item{
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid transparent;
+
+}
+.nav-item:hover{
+  border-bottom: 2px solid #653aaf;
+}
+.nav-item:hover .nav-link{
+  font-weight: 700;
+  color: #653aaf !important;
+}
+.nav-link{
+  font-size: 1.4rem;
+  color: #3389e5 !important;
+
+}
+.site-wrapper-inner{
+  background-color: #dcdcfb;
+  box-shadow: 0px 0px 2px 2px #3389e5;
+
+}
+.site-wrapper h4{
+  color: #3389e5;;
+}
+.btn-grp{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-grp a{
+  flex: 1
+}
+.site-wrapper-inner h2{
+  color: #653aaf;
+}
+
+.site-wrapper-inner a{
+  background-color: #653aaf;
+  color: white;
+  box-shadow: 4px 4px 4px 2px #0000008a;
+}
+
+.site-wrapper-inner a:hover{
+  background-color: #3389e5;
+  color: white;
+  box-shadow: -4px -4px 4px 2px #0000008a;
+
+}
+
+
+.about-header h1{
+  color: #653aaf;
+  border-bottom: 2px solid #653aaf;
+  width: 11rem;
+}
+.about-header p strong{
+  color: #3389e5;
+}
+
+.about-body h2{
+  color: #3389e5;
+}
+.about-body ul{
+  list-style: none; 
+}
+.about-body ul li::before {
+  content: "\2022"; 
+  font-size: 2rem;
+  color: #653aaf; 
+  font-weight: bold; 
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em; 
+}
+.join-btn a{
+   background-color: #653aaf;
+   color: white;
+   box-shadow: 4px 4px 4px 2px #0000008a;
+}
+.join-btn a:hover{
+  background-color: #3389e5;
+  color: white;
+  box-shadow: -4px -4px 4px 2px #0000008a;
+}
+
+
+@media screen and (max-width: 756px){
+  .about-body ul{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
